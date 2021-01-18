@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='style.css'>
+    <title>Practice 10</title>
+</head>
+<body>
+    <div id="calc">
+        <table cellspacing="5">
+            <tr>
+                <td colspan="5"> <div class="up"><span id="grey">0</span></div>
+                    <div class="up up1"><span id="black">0</span></div></td>
+                
+            </tr>
+            <tr>
+                <td><button onclick="print_n('7')">7</button></td>
+                <td><button onclick="print_n('8')">8</button></td>
+                <td><button onclick="print_n('9')">9</button></td>
+                <td><button onclick="print_z('/')">/</button></td>
+                <td><button onclick="clear_()">C</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="print_n('4')">4</button></td>
+                <td><button onclick="print_n('5')">5</button></td>
+                <td><button onclick="print_n('6')">6</button></td>
+                <td><button onclick="print_z('*')">*</button></td>
+                <td><button onclick="cancel_()" id="cl"><-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="print_n('1')">1</button></td>
+                <td><button onclick="print_n('2')">2</button></td>
+                <td><button onclick="print_n('3')">3</button></td>
+                <td><button onclick="print_z('-')">-</button></td>
+                <td rowspan="2"><button onclick="solve_()" style="height:119px;">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="print_n('0')" style="width:119px;">0</button></td>
+                <td><button onclick="print_t()">.</button></td>
+                <td><button onclick="print_z('+')">+</button></td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

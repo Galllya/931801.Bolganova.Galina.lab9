@@ -1,0 +1,64 @@
+﻿body
+{
+    font-family: Arial;
+}
+
+
+table {
+    width: 100%;
+}
+
+.up1 {
+    white-space: nowrap;
+    position: absolute !important;
+    top: 24px;
+}
+
+.up {
+    white-space:nowrap;
+    border-radius: 1px;
+    border: 1px solid black;
+    padding: 0 3px;
+    overflow: hidden;
+    display: table;
+    font-size: 35px;
+    height: 55px;
+    table-layout: fixed;
+    width: 297px;
+}
+
+#black, #grey {
+    white-space: nowrap;
+    float: right;
+    margin-top: 2px;
+}
+
+#black {
+    user-select: none;
+}
+
+#grey {
+    color: grey;
+}
+
+
+button {
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    user-select: none;
+}
+
+button:hover {
+    border-radius: 1px;
+    border: 2px solid #799ad1;
+}
+
+
+#calc {
+    width: 300px;
+    position: absolute;
+    border: 5px solid #0094ff;
+    padding: 18px;
+    padding-right:35px;
+}
